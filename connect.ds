@@ -1,0 +1,13 @@
+import DS.Servers:Connect
+import DS.Main:Players
+import DS.Main:lib
+
+public void(Servers){
+  if{
+    player.connect.dastapp =true
+  }
+  do{
+    player.GetLocation =true
+    server.ConnectPlayer:ClosestServer.Connection.ConnectPlayer =true
+  }
+}
