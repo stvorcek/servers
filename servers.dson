@@ -1,0 +1,3 @@
+//Servers List
+{"name":"EU-1","location":"Germany","alt":"DE-0.sub"} //DE-0 Can also be used with .sub mark
+{"name":"DE-0.sub":"location":"Germany","main":"EU-1"} //Substitute when EU-1 fails.
