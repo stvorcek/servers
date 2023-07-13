@@ -1,0 +1,10 @@
+//DarkScript Supported libraries
+// Format = Prefix.Library - version
+// Format = Predix.Library - version - type,
+*file.Begin*
+DS.* - 1.25 - stable
+DSDev.* - 1.26 - dev
+tmmmn.* - 0.29 - stable
+tmmnchess.* - 0.45 - stable
+experimental.* - 1.02 - betaChannel
+server.* - 0.01 - alphaChannel
