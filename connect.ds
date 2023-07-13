@@ -11,3 +11,13 @@ public void(Servers){
     server.ConnectPlayer:ClosestServer.Connection.ConnectPlayer =true
   }
 }
+}
+
+private void(ConnectFailed){
+  if{
+  player.Connect.Failed =true
+  }
+do{
+  player.ResetConnection
+  }
+}
