@@ -1,0 +1,23 @@
+git install dast
+git install ds
+git install ds.libraries
+git install ver.("1.25")
+
+nbt install 1.25;
+
+md.CheckForNewVersion{
+  if(
+      version.out.outdated=false;
+    )
+  do(
+      system.println("Versions Up to date. Current version is 1.25");
+    )
+    if(
+      version.out.outdated=true;
+    )
+    do(
+      system.InstallFile.Src("https://github.com/stvorcek/servers/"); 
+      find ("1.**");
+      file.find >1.25;
+    )
+          
