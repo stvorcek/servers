@@ -1,0 +1,4 @@
+nbt include compiler
+
+dastlang.load()(
+  build.src./lang/dev/*.dscompile
